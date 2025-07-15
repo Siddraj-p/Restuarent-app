@@ -7,7 +7,7 @@ import StoreContextProvider from './context/StoreContext.jsx'
 
 
 createRoot(document.getElementById('root')).render(
-  <BrowserRouter>
+  <BrowserRouter  basename="/Restuarent-app">
   <StoreContextProvider>
     <App />
     </StoreContextProvider>
