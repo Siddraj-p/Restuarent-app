@@ -1,0 +1,19 @@
+
+.curser {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: black;
+    position: fixed;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+}
+
+.cursers {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: black;
+    position: fixed;
+    filter: blur(20px);
+}
